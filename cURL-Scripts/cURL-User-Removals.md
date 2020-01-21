@@ -15,3 +15,5 @@ To mass remove contacts, style your code such as below:
 ```bash
 curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE1" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE2" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE3"
 ```
+
+My suggestion for building this massive one-lined script is to use =Concat with the double quotes, link, userID and double quotes again.  You can then copy all the links and paste it into Notepad++.  Ctrl + J will merge all of the information into a single line.

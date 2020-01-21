@@ -1,4 +1,4 @@
-During an organization restructure you might need to change thousands of users email domains, or maybe you've segmented your user base into sub-categories of users for permissions or tracking. If you ever need to change user permissions, types, divisions, etc. in bulk, feel free to slap this in CMD after your changes:
+During an organization restructure you might need to change thousands of users email domains, or maybe you've segmented your user base into sub-categories of users for permissions or tracking. If you ever need to change user permissions, types, divisions, etc. in bulk, feel free to slap this into CMD (Windows key + R, "CMD" Enter) after your changes:
 
 ```bash
 curl -X PUT -H "X-API-TOKEN: APITOKENHERE-H "Content-Type: application/json" -d "{ VARIABLESHERE }" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE"

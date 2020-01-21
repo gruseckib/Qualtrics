@@ -7,7 +7,7 @@ curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/
 ```
 
 - Make sure to replace "APITOKENHERE" with your token
-- the user ID of whom you want to remove in place of "USERIDHERE"
+- The user ID of whom you want to remove in place of "USERIDHERE"
 - The 'datacenter.qualtrics.com' with your brands link
 
 To mass remove contacts, style your code such as below:

@@ -24,18 +24,18 @@ curl -X DELETE -H "X-API-TOKEN: lakjdf863023nv_343" "https://hobobikes.eu.qualtr
 
 I've added a fake example api-token (lakjdf863023nv_343), and a non-existent datacenter URL (hobobikes.eu.qualtrics.com).  Now let's say we need to populate USERIDHERE, for say, 100 users to repeat the script in bulk. 
 
-1. Create an Excel file with all of the UserID's in column A that you wish to remove.  In this example we will call the column 'Rem_User'
+1. Create an Excel file with all of the UserID's in column A that you wish to remove.  In this example we will call the column *Rem_User*
 2. Save this Excel file as a CSV.
 3. Paste the following into Microsoft Word, making sure that you are including 2 to 4 Enter/Return spaces after the code.
 
 ```bash
 curl -X DELETE -H "X-API-TOKEN: lakjdf863023nv_343" "https://hobobikes.eu.qualtrics.com/API/v3/users/USERIDHERE1"
 ```
-4. In Word click, Mailings>Start Mail Merge>Directory
-5. Now click, Select Recipients>Use an Existing List
-6. Navigate to your saved CSV file that includes the UserID's you want to remove.
-7. Replace, USERIDHERE1 by clicking on Insert Merge Field>Rem_User
-8. Click Finish & Merge>Edit Individual Documents>OK
+4. In Word click, *Mailings>Start Mail Merge>Directory*
+5. Now click, *Select Recipients>Use an Existing List*
+6. Navigate to your saved CSV file that includes the UserID's you want to remove
+7. Replace, *USERIDHERE1* by clicking on *Insert Merge Field>Rem_User*
+8. Click *Finish & Merge>Edit Individual Documents>OK*
 
 This will repeat your script for all 100 users that we need to remove.  Now you can copy the entire Word document file and paste it into the windows CMD prompt, it will automatically processes all of the signified removals.
 

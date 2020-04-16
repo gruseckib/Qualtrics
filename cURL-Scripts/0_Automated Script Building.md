@@ -39,4 +39,4 @@ curl -X DELETE -H "X-API-TOKEN: lakjdf863023nv_343" "https://hobobikes.eu.qualtr
 
 This will repeat your script for all 100 users that we need to remove.  Now you can copy the entire Word document file and paste it into the windows CMD prompt, it will automatically processes all of the signified removals.
 
-**NOTE: Be very careful with any script you're pushing through in bulk, it's VERY easy to remove wrong accounts or create accounts with errors, and without a confirmation if you are not careful. **
+**NOTE: Be very careful with any script you're pushing through in bulk, it's VERY easy to remove wrong accounts or create accounts with errors, and without a confirmation if you are not careful.**

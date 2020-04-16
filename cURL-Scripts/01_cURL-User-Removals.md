@@ -20,6 +20,6 @@ curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/
 curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE3"
 ```
 
-My recommendation to fully repeat each string is based upon restrictions of CMD, which has a hard defined character limit.  Pasting the full code above will submit each request individually and automatically, effectively providing a work-around for this CMD based restriction.
+My recommendation is to fully repeat each string is based upon restrictions of CMD, which has a hard defined character limit.  Pasting the full code above will submit each request individually and automatically, effectively providing a work-around for this CMD based restriction.
 
 **For more information on building a mass file, please view [0_Automated Script Building](https://github.com/gruseckib/Qualtrics/blob/master/cURL-Scripts/0_Automated%20Script%20Building.md)**

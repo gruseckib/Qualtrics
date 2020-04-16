@@ -13,7 +13,13 @@ curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/
 To mass remove contacts, style your code such as below:
 
 ```bash
-curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE1" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE2" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE3"
+curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE1"
+
+curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE2"
+
+curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/API/v3/users/USERIDHERE3"
 ```
 
-My suggestion for building this massive one-lined script is to use =Concat with the double quotes, link, userID and double quotes again.  You can then copy all the links and paste it into Notepad++.  Ctrl + J will merge all of the information into a single line.
+My recommendation to fully repeat each string is based upon restrictions of CMD, which has a hard defined character limit.  Pasting the full code above will submit each request individually and automatically, effectively providing a work-around for this CMD based restriction.
+
+**For more information on building a mass file, please view 0_Automated Script Building

@@ -22,4 +22,4 @@ curl -X DELETE -H "X-API-TOKEN: APITOKENHERE" "https://datacenter.qualtrics.com/
 
 My recommendation to fully repeat each string is based upon restrictions of CMD, which has a hard defined character limit.  Pasting the full code above will submit each request individually and automatically, effectively providing a work-around for this CMD based restriction.
 
-**For more information on building a mass file, please view 0_Automated Script Building
+**For more information on building a mass file, please view [0_Automated Script Building](https://www.google.com)**
